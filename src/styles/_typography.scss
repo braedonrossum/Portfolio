@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Corben";
+    font-weight: 400;
+    src:url("/src/assets/fonts/Corben-Regular.ttf")
+            format("truetype");
+}
+@font-face {
+    font-family: "Corben";
+    font-weight: 600;
+    src:url("/src/assets/fonts/Corben-Bold.ttf")
+            format("truetype");
+}
+
+body {
+    font-family: "Corben", "sans-serif";
+    color: black;
+}

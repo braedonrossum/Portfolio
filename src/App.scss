@@ -1,0 +1,47 @@
+@use "./styles/typography";
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  &__title{
+    text-align: center;
+  }
+
+  &-logo{
+    width: 100px;
+  }
+
+  &-nav{
+    &__list{
+      display: flex;
+      text-decoration: none;
+      list-style-type: none;
+      gap: 1rem;
+    }
+  }
+}
+
+.me{
+  text-align: center;
+}
+
+.projects{
+  text-align: center;
+
+  &-card{
+    width: 200px;
+    height: 400px;
+
+    &__preview{
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.icon{
+  width: 20%;
+}
