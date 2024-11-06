@@ -1,26 +1,87 @@
 @use "./styles/typography";
 
-.header{
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+html {
+  scroll-behavior: smooth;
+  list-style-type: none;
+}
+
+a, a:visited{
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  width: 95%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  position: fixed;
+  color: white;
+  padding-inline: 2rem;
+  transition: background-color 0.1s ease;
+  text-shadow: 1px 1px 2px black;
 
-  &__title{
+  &--scrolled {
+    background-color: white;
+    color: black;
+    text-shadow: none;
+
+    .header__title {
+      color: black;
+    }
+
+    .header-nav__list {
+      color: black;
+    }
+
+    .header-nav__item a {
+      color: black;
+      transition: color 0.1s ease;
+    }
+  }
+
+  &__title {
     text-align: center;
   }
 
-  &-logo{
+  &-logo {
     width: 100px;
   }
 
-  &-nav{
-    &__list{
+  &-nav {
+    &__list {
       display: flex;
       text-decoration: none;
       list-style-type: none;
+      color: white; // Default color
       gap: 1rem;
     }
+  }
+}
+
+.hero{
+  padding: 0.5rem;
+  &__image{
+    object-fit: cover;
+    width: 98vw;
+    height: 98vh;
+    border-radius: .625rem;
+  }
+
+  &__cta{
+    position: absolute;
+    color: white ;
+    top: 92vh;
+    left: 20px;
+    text-shadow: 1px 1px 2px black;
+    
   }
 }
 
@@ -38,10 +99,16 @@
     &__preview{
       width: 100%;
       height: auto;
+      border-radius: 10px;
     }
   }
 }
 
-.icon{
-  width: 20%;
+.icon-container{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  .icon{
+    width: 30px;
+  }
 }
