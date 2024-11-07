@@ -6,6 +6,7 @@ import globe from './assets/globe.svg';
 import trees from './assets/trees.jpg';
 import { useState, useEffect } from 'react';
 import mountain from './assets/mountain.jpg';
+import headshot from './assets/headshot.jpg'
 
 function App() {
   const images = [trees, mountain];
@@ -18,7 +19,7 @@ function App() {
 
     const handleScroll = () => {
       const heroHeight = document.querySelector('.hero').offsetHeight;
-      setIsScrolled(window.scrollY > 0.9 * heroHeight);
+      setIsScrolled(window.scrollY > 0.01 * heroHeight);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -28,27 +29,45 @@ function App() {
   return (
     <>
       <header className={`header ${isScrolled ? 'header--scrolled' : ''}`}>
+        <a href='#hero'>
         <h4 className='header__title'>braedon.</h4>
+        </a>
         <nav className='header-nav'>
           <ul className='header-nav__list'>
-            <li className='header-nav__item'>home</li>
             <li className='header-nav__item'>
-              <a href="#projects">projects</a>
+              <a href="#hero">home</a>
             </li>
             <li className='header-nav__item'>
               <a href='#me'>me</a>
             </li>
+            <li className='header-nav__item'>
+              <a href="#projects">projects</a>
+            </li>
           </ul>
         </nav>
       </header>
-      <section className='hero'>
+      <section id='hero' className='hero'>
         <h1 className='hero__cta'>creating tools to help and inspire</h1>
         <img src={heroImage} alt="trees hero image" className='hero__image' />
       </section>
       <section id='me' className='me'>
-        <h4>me.</h4>
-        <img src={logo} alt="" />
-        <p>Passionate software engineering professional transitioning from a strong background in exercise physiology and project coordination...</p>
+        <h4 className='me__title'>me.</h4>
+        <div className='me__content'>
+        <img className='me__content-headshot' src={headshot} alt="" />
+        <p className='me__content-bio'>Passionate software engineering professional transitioning from a strong background in exercise physiology and project coordination. Driven by a desire to create impactful digital solutions, I aim to develop innovative applications that integrate fitness and health into everyday life. My expertise in exercise science, combined with my personal experience in rehabilitation, equips me with unique insights to design user-centric fitness technology. Leveraging my project coordination skills and a commitment to lifelong learning, I am excited to apply my software engineering abilities to inspire and help a broader audience through accessible, tech-enabled fitness solutions.</p>
+        </div>
+      </section>
+      <section id='skills' className='skills'>
+        <h4 className='skills__title'>Skills.</h4>
+        <ul className='me__list'>
+          <li className='me__list-item'>HTML</li>
+          <li className='me__list-item'>CSS/SASS</li>
+          <li className='me__list-item'>Javascript</li>
+          <li className='me__list-item'>React</li>
+          <li className='me__list-item'>Node.js</li>
+          <li className='me__list-item'>Express.js</li>
+          <li className='me__list-item'></li>
+        </ul>
       </section>
       <section id='projects' className='projects'>
         <h4>projects.</h4>
