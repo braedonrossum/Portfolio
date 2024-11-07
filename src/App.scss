@@ -1,0 +1,141 @@
+@use "./styles/typography";
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+html {
+  scroll-behavior: smooth;
+  list-style-type: none;
+}
+
+a, a:visited{
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: fixed;
+  color: white;
+  padding-inline: 2rem;
+  transition: background-color 0.1s ease;
+  text-shadow: 1px 1px 2px black;
+  z-index: 1;
+
+  &--scrolled {
+    background-color: white;
+    color: transparent;
+    text-shadow: none;
+
+    .header__title {
+      color: black;
+    }
+
+    .header-nav__list {
+      color: black;
+    }
+
+    .header-nav__item a {
+      color: black;
+      transition: color 0.1s ease;
+    }
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &-logo {
+    width: 100px;
+  }
+
+  &-nav {
+    &__list {
+
+      display: flex;
+      text-decoration: none;
+      list-style-type: none;
+      color: white;
+      gap: 1rem;
+      padding-right: 4rem;
+    }
+  }
+}
+
+.hero{
+  padding: 0.5rem;
+  &__image{
+    object-fit: cover;
+    width: 100%;
+    height: 98vh;
+    border-radius: .625rem;
+  }
+
+  &__cta{
+    position: absolute;
+    color: white ;
+    top: 92vh;
+    left: 20px;
+    text-shadow: 1px 1px 2px black;
+    
+  }
+}
+
+.me{
+  text-align: center;
+  padding-top: 4rem;
+
+  &__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    &-headshot{
+      width: 300px;
+      border-radius: 50%;
+    }
+    &-bio{
+      width: 40%;
+    }
+  }
+}
+
+.skills{
+  
+}
+
+.projects{
+  text-align: center;
+
+  &-card{
+    width: 200px;
+    height: 400px;
+
+    &__preview{
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+}
+
+.icon-container{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  .icon{
+    width: 30px;
+  }
+}
