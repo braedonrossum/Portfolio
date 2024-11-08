@@ -7,11 +7,16 @@ import trees from './assets/trees.jpg';
 import { useState, useEffect } from 'react';
 import mountain from './assets/mountain.jpg';
 import headshot from './assets/headshot.jpg'
+import lightModeButton from './assets/light-mode.svg'
+import darkModeButton from './assets/dark-mode.svg'
+import Card from './components/Card/Card';
+
 
 function App() {
   const images = [trees, mountain];
   const [heroImage, setHeroImage] = useState('');
   const [isScrolled, setIsScrolled] = useState(false);
+  const [darkMode, setDarkMode] = useState(false)
 
   useEffect(() => {
     const randomIndex = Math.floor(Math.random() * images.length);
@@ -26,12 +31,22 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const toggleDarkMode = () => setDarkMode(!darkMode)
+
   return (
-    <>
+    <div className={`app ${darkMode ? 'dark-mode' : ''}`}>
       <header className={`header ${isScrolled ? 'header--scrolled' : ''}`}>
+        <div className='header__left'>
         <a href='#hero'>
         <h4 className='header__title'>braedon.</h4>
         </a>
+        <button onClick={toggleDarkMode} className='dark-mode-toggle'>
+        <img className='dark-mode-toggle__img'
+    src={darkMode ? lightModeButton : darkModeButton} 
+    alt={darkMode ? "Switch to light mode" : "Switch to dark mode"} 
+  />
+        </button>
+        </div>
         <nav className='header-nav'>
           <ul className='header-nav__list'>
             <li className='header-nav__item'>
@@ -70,10 +85,10 @@ function App() {
         </ul>
       </section>
       <section id='projects' className='projects'>
-        <h4>projects.</h4>
+        <h4 className='projects__title'>projects.</h4>
         <p>Hover project for more information</p>
         <article className='projects-card'>
-          <p>Total Kinetic Advantage</p>
+          <p className='projects-card__title'>Total Kinetic Advantage</p>
           <img src={tkaPreview} alt="" className='projects-card__preview' />
           <div className='icon-container'>
             <a href="https://github.com/braedonrossum/total-kinetic-advantage-frontend" target="_blank" rel="noopener noreferrer">
@@ -84,14 +99,15 @@ function App() {
             </a>
           </div>
         </article>
+        <Card />
       </section>
-      <footer id='footer'>
+      <footer id='footer'className='footer'>
         <p>braedon &copy; 2024</p>
         <a href='https://github.com/braedonrossum'>
-          <img src={githubLogo} alt="" />
+          <img className='footer__icon' src={githubLogo} alt="" />
         </a>
       </footer>
-    </>
+    </div>
   );
 }
 

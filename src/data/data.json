@@ -1,0 +1,154 @@
+{
+    "projects": [
+        {
+            "title": "Total Kinetic Advantage",
+            "previewImage": {
+                "src": "src/assets/tka-preview.png",
+                "alt": ""
+            },
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/total-kinetic-advantage-frontend",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                },
+                {
+                    "type": "Website",
+                    "url": "https://totalkineticadvantage.com",
+                    "icon": {
+                        "src": "src/assets/globe.svg",
+                        "alt": "link to website"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Streaming Bundle Explorer",
+            "previewImage": {
+                "src": "src/assets/",
+                "alt": ""
+            },
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/project-two",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                },
+                {
+                    "type": "Website",
+                    "url": "https://projecttwo.com",
+                    "icon": {
+                        "src": "globe",
+                        "alt": "link to website"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Project Three",
+            "previewImage": {
+                "src": "projectThreePreview",
+                "alt": ""
+            },
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/project-three",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                },
+                {
+                    "type": "Website",
+                    "url": "https://projectthree.com",
+                    "icon": {
+                        "src": "globe",
+                        "alt": "link to website"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Project Four",
+            "previewImage": {
+                "src": "projectFourPreview",
+                "alt": ""
+            },
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/project-four",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                },
+                {
+                    "type": "Website",
+                    "url": "https://projectfour.com",
+                    "icon": {
+                        "src": "globe",
+                        "alt": "link to website"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Project Five",
+            "previewImage": {
+                "src": "projectFivePreview",
+                "alt": ""
+            },
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/project-five",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                },
+                {
+                    "type": "Website",
+                    "url": "https://projectfive.com",
+                    "icon": {
+                        "src": "globe",
+                        "alt": "link to website"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Project Six",
+            "previewImage": {
+                "src": "projectSixPreview",
+                "alt": ""
+            },
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/project-six",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                },
+                {
+                    "type": "Website",
+                    "url": "https://projectsix.com",
+                    "icon": {
+                        "src": "src/assets/globe.svg",
+                        "alt": "link to website"
+                    }
+                }
+            ]
+        }
+    ]
+}
