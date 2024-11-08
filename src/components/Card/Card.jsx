@@ -3,12 +3,13 @@ import tkaPreview from "../../assets/tka-preview.png";
 import githubLogo from "../../assets/github-mark.svg";
 import globe from "../../assets/globe.svg";
 import projectData from '../../data/data.json';
+import './Card.scss'
 
 function Card() {
     const projects = projectData.projects;
 
     return (
-        <div>
+        <div className="projects-container">
             {projects.map((project, index) => (
                 <article className="projects-card" key={index}>
                     <p className="projects-card__title">{project.title}</p>
@@ -32,6 +33,9 @@ function Card() {
                                 />
                             </a>
                         ))}
+                    </div>
+                    <div className="projects-card__overlay">
+                        <p>{project.description}</p>
                     </div>
                 </article>
             ))}
