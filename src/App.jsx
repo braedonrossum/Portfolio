@@ -65,10 +65,15 @@ function App() {
           </ul>
         </nav>
       </header>
-      <section id='hero' className='hero'>
+      <div className='hero-container'>
+      <section id='hero' className='hero' style={{ backgroundImage: `url(${heroImage})` }}>
         <h1 className='hero__cta'>creating tools to help and inspire</h1>
-        <img src={heroImage} alt="trees hero image" className='hero__image' />
+        <div className='hero__scroll'>
+          <h4 className='hero__scroll-title'>Scroll Down</h4>
+          <a className='hero__scroll-arrow' href="#me"></a>
+        </div>
       </section>
+      </div>
       <section id='me' className='me'>
         <h4 className='me__title'>me.	</h4>
         <div className='me__content'>
