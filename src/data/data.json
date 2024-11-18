@@ -1,0 +1,120 @@
+{
+    "projects": [
+        {
+            "title": "Total Kinetic Advantage",
+            "previewImage": {
+                "src": "src/assets/tka-preview.png",
+                "alt": "Homepage of Total Kinetic Advantage"
+            },
+            "description": "A web app that helps users create a customized resistance training program based on their fitness level, workout frequency, and goals. It also includes an exercise library with detailed instructions and video demos for each exercise.",
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/total-kinetic-advantage-frontend",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                },
+                {
+                    "type": "Website",
+                    "url": "https://totalkineticadvantage.com",
+                    "icon": {
+                        "src": "src/assets/globe.svg",
+                        "alt": "link to website"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Streaming Bundle Explorer",
+            "previewImage": {
+                "src": "src/assets/",
+                "alt": ""
+            },
+            "description": "BrainStation Industry Project in collaboration with Telus. A cross platform component for viewing streaming bundle options in a more user friendly and accessible way.",
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/brainstation-industry-project-telus",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "InStock",
+            "previewImage": {
+                "src": "projectThreePreview",
+                "alt": ""
+            },
+            "description": "A web app that helps users create a customized resistance training program based on their fitness level, workout frequency, and goals. It also includes an exercise library with detailed instructions and video demos for each exercise.",
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/instock-frontend",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Brainflix",
+            "previewImage": {
+                "src": "projectFourPreview",
+                "alt": ""
+            },
+            "description": "A web app that helps users create a customized resistance training program based on their fitness level, workout frequency, and goals. It also includes an exercise library with detailed instructions and video demos for each exercise.",
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/braedon-rossum-brainflix",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Bandsite",
+            "previewImage": {
+                "src": "projectFivePreview",
+                "alt": ""
+            },
+            "description": "A web app that helps users create a customized resistance training program based on their fitness level, workout frequency, and goals. It also includes an exercise library with detailed instructions and video demos for each exercise.",
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/braedon-rossum-bandsite",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Coffee Shop",
+            "previewImage": {
+                "src": "projectSixPreview",
+                "alt": ""
+            },
+            "description": "A web app that helps users create a customized resistance training program based on their fitness level, workout frequency, and goals. It also includes an exercise library with detailed instructions and video demos for each exercise.",
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/braedon-rossum-coffee-shop",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                }
+            ]
+        }
+    ]
+}
