@@ -1,0 +1,135 @@
+{
+    "projects": [
+        {
+            "title": "Total Kinetic Advantage",
+            "previewImage": {
+                "src": "src/assets/tka-preview.png",
+                "alt": "Homepage of Total Kinetic Advantage"
+            },
+            "description": "A web app that helps users create a customized resistance training program based on their fitness level, workout frequency, and goals. It also includes an exercise library with detailed instructions and video demos for each exercise.",
+            "stack": "Stack: React, JavaScript, HTML, CSS/SCSS, Axios, Node.js, Express.js, Knex.js, MySQL",
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/total-kinetic-advantage-frontend",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    },
+                    "iconWhite": {
+                        "src": "src/assets/github-mark-white.svg",
+                        "alt": "Github octocat logo"
+                    }
+                },
+                {
+                    "type": "Website",
+                    "url": "https://totalkineticadvantage.com",
+                    "icon": {
+                        "src": "src/assets/globe.svg",
+                        "alt": "link to website"
+                    },
+                    "iconWhite": {
+                        "src": "src/assets/globe.svg",
+                        "alt": "link to website"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Streaming Bundle Explorer",
+            "previewImage": {
+                "src": "src/assets/telus-preview.png",
+                "alt": ""
+            },
+            "description": "BrainStation Industry Project in collaboration with Telus. A cross platform component for viewing streaming bundle options in a more user friendly and accessible way.",
+            "stack": "Stack: JavaScript, HTML, CSS/SCSS",
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/brainstation-industry-project-telus",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "InStock",
+            "previewImage": {
+                "src": "src/assets/instock-preview.png",
+                "alt": ""
+            },
+            "description": "Full stack web app for inventory management allowing users add/modify warehouses and their respective inventory.",
+            "stack": "Stack: React, JavaScript, HTML, CSS/SCSS, Axios, Node.js, Express.js, Knex.js, MySQL, Jira, GitFlow/Agile Development ",
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/instock-frontend",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Brainflix",
+            "previewImage": {
+                "src": "src/assets/brainflix-preview.png",
+                "alt": ""
+            },
+            "description": "Full stack web app video sharing site featuring a home page, current video page, comment section, and upload page.",
+            "stack": "Stack: React, JavaScript, HTML, CSS/SCSS, Axios, Node.js, Express.js ",
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/braedon-rossum-brainflix",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Bandsite",
+            "previewImage": {
+                "src": "src/assets/bandsite-preview.png",
+                "alt": ""
+            },
+            "description": "A responsive web app for a fictional band featuring an about page, tickets page, and a working comment section.",
+            "stack": "Stack: JavaScript, HTML, CSS/SCSS, Axios",
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/braedon-rossum-bandsite",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Coffee Shop",
+            "previewImage": {
+                "src": "src/assets/coffee-shop-preview.png",
+                "alt": ""
+            },
+            "description": "Web app for a coffee shop featuring a menu page, and landing page with added animations. ",
+
+            "stack": "Stack: HTML, CSS/SCSS",
+            "links": [
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/braedonrossum/braedon-rossum-coffee-shop",
+                    "icon": {
+                        "src": "src/assets/github-mark.svg",
+                        "alt": "Github octocat logo"
+                    }
+                }
+            ]
+        }
+    ]
+}
