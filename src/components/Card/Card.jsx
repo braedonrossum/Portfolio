@@ -5,7 +5,7 @@ import globe from "../../assets/globe.svg";
 import projectData from '../../data/data.json';
 import './Card.scss'
 
-function Card() {
+function Card(darkMode) {
     const projects = projectData.projects;
 
     return (
@@ -36,6 +36,7 @@ function Card() {
                     </div>
                     <div className="projects-card__overlay">
                         <p>{project.description}</p>
+                        <p>{project.stack}</p>
                     </div>
                 </article>
             ))}
