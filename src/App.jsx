@@ -1,6 +1,5 @@
 import './App.scss';
 import logo from './assets/169218576.jfif';
-import tkaPreview from './assets/tka-preview.png';
 import githubLogo from './assets/github-mark.svg';
 import githubLogoWhite from './assets/github-mark-white.svg';
 import linkedinLogo from './assets/linkedin.svg';
@@ -98,7 +97,7 @@ function App() {
       <section id='projects' className='projects'>
         <h4 className='projects__title'>projects.</h4>
         <p>Hover project for more information</p>
-        <Card darkMode/>
+        <Card darkMode={darkMode} />
       </section>
       <footer id='footer'className='footer'>
         <p>braedon &copy; 2024</p>

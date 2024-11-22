@@ -1,11 +1,10 @@
 import React from "react";
-import tkaPreview from "../../assets/tka-preview.png";
 import githubLogo from "../../assets/github-mark.svg";
 import globe from "../../assets/globe.svg";
 import projectData from '../../data/data.json';
 import './Card.scss'
 
-function Card(darkMode) {
+function Card({darkMode}) {
     const projects = projectData.projects;
 
     return (
@@ -28,7 +27,7 @@ function Card(darkMode) {
                             >
                                 <img
                                     className="icon"
-                                    src={link.icon.src}
+                                    src={darkMode ? link.iconWhite.src : link.icon.src}
                                     alt={link.icon.alt}
                                 />
                             </a>
