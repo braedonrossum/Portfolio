@@ -115,6 +115,9 @@ button{
       color: black;
       transition: color 0.1s ease;
     }
+    .dark-mode-toggle {
+      cursor: pointer;
+    }
   }
   &__left{
     display: flex;
