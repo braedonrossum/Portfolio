@@ -5,19 +5,24 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
         gap: 3rem;
         padding: 2rem;
     }
 
     &-card {
-        width: 200px;
-        height: 250px;
+        width: 250px;
+        height: 370px;
         max-width: 300px;
         border: 1px solid #ddd;
         background-color: white;
         padding: 16px;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 0.5rem;
 
         &:hover{
             transform: scale(1.05);
@@ -26,12 +31,15 @@
 
         &__preview {
             width: 100%;
+            background-size: cover;
             height: auto;
             border-radius: 10px;
         }
         &__overlay {
+            display: flex;
+            flex-direction: column;
             position: absolute;
-            bottom: 100%; /* Position it just above the card */
+            bottom: 100%;
             left: 50%;
             transform: translateX(-50%);
             right: 0;
@@ -45,8 +53,8 @@
             padding: 1rem;
             text-align: center;
             border-radius: 10px;
-            height: 210px;
-            width: 350px;
+            height: 250px;
+            width: 400px;
             margin-bottom: 8px;
         }
 

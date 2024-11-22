@@ -98,7 +98,7 @@ function App() {
       <section id='projects' className='projects'>
         <h4 className='projects__title'>projects.</h4>
         <p>Hover project for more information</p>
-        <Card />
+        <Card darkMode/>
       </section>
       <footer id='footer'className='footer'>
         <p>braedon &copy; 2024</p>
