@@ -17,7 +17,7 @@
                         "alt": "Github octocat logo"
                     },
                     "iconWhite": {
-                        "src": "src/assets/github-mark-white.svg",
+                        "src": "card-images/github-mark-white.svg",
                         "alt": "Github octocat logo"
                     }
                 },
@@ -25,11 +25,11 @@
                     "type": "Website",
                     "url": "https://totalkineticadvantage.com",
                     "icon": {
-                        "src": "src/assets/globe.svg",
+                        "src": "card-images/globe.svg",
                         "alt": "link to website"
                     },
                     "iconWhite": {
-                        "src": "src/assets/globe-white.svg",
+                        "src": "card-images/globe-white.svg",
                         "alt": "link to website"
                     }
                 }
@@ -52,7 +52,7 @@
                         "alt": "Github octocat logo"
                     },
                     "iconWhite": {
-                        "src": "src/assets/github-mark-white.svg",
+                        "src": "card-images/github-mark-white.svg",
                         "alt": "Github octocat logo"
                     }
                 }
@@ -75,7 +75,7 @@
                         "alt": "Github octocat logo"
                     },
                     "iconWhite": {
-                        "src": "src/assets/github-mark-white.svg",
+                        "src": "card-images/github-mark-white.svg",
                         "alt": "Github octocat logo"
                     }
                 }
@@ -98,7 +98,7 @@
                         "alt": "Github octocat logo"
                     },
                     "iconWhite": {
-                        "src": "src/assets/github-mark-white.svg",
+                        "src": "card-images/github-mark-white.svg",
                         "alt": "Github octocat logo"
                     }
                 }
@@ -121,7 +121,7 @@
                         "alt": "Github octocat logo"
                     },
                     "iconWhite": {
-                        "src": "src/assets/github-mark-white.svg",
+                        "src": "card-images/github-mark-white.svg",
                         "alt": "Github octocat logo"
                     }
                 }
@@ -145,7 +145,7 @@
                         "alt": "Github octocat logo"
                     },
                     "iconWhite": {
-                        "src": "src/assets/github-mark-white.svg",
+                        "src": "card-images/github-mark-white.svg",
                         "alt": "Github octocat logo"
                     }
                 }
