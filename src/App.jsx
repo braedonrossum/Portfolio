@@ -34,7 +34,18 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const toggleDarkMode = () => setDarkMode(!darkMode)
+  useEffect(() => {
+    const savedMode = localStorage.getItem('darkMode') === 'true';
+    setDarkMode(savedMode);
+  }, []);
+  
+  const toggleDarkMode = () => {
+    setDarkMode((prevMode) => {
+      const newMode = !prevMode;
+      localStorage.setItem('darkMode', newMode);
+      return newMode;
+    });
+  };
 
   return (
     <div className={`app ${darkMode ? 'dark-mode' : ''}`}>
@@ -107,7 +118,7 @@ function App() {
         <a href='https://www.linkedin.com/in/braedonrossum/'>
           <img className='footer__icon' src={linkedinLogo} alt="Link to LinkedIn" />
         </a>
-        <a href=''>
+        <a href='mailto:braedon.rossum@gmail.com'>
           <img className='footer__icon' src={darkMode ? emailLogoWhite : emailLogo} alt="Link to Email" />
         </a>
       </footer>

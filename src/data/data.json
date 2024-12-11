@@ -13,7 +13,7 @@
                     "type": "GitHub",
                     "url": "https://github.com/braedonrossum/total-kinetic-advantage-frontend",
                     "icon": {
-                        "src": "/github-mark.svg",
+                        "src": "card-images/github-mark.svg",
                         "alt": "Github octocat logo"
                     },
                     "iconWhite": {
@@ -48,7 +48,7 @@
                     "type": "GitHub",
                     "url": "https://github.com/braedonrossum/brainstation-industry-project-telus",
                     "icon": {
-                        "src": "src/assets/github-mark.svg",
+                        "src": "card-images/github-mark.svg",
                         "alt": "Github octocat logo"
                     },
                     "iconWhite": {
@@ -71,7 +71,7 @@
                     "type": "GitHub",
                     "url": "https://github.com/braedonrossum/instock-frontend",
                     "icon": {
-                        "src": "src/assets/github-mark.svg",
+                        "src": "card-images/github-mark.svg",
                         "alt": "Github octocat logo"
                     },
                     "iconWhite": {
@@ -94,7 +94,7 @@
                     "type": "GitHub",
                     "url": "https://github.com/braedonrossum/braedon-rossum-brainflix",
                     "icon": {
-                        "src": "src/assets/github-mark.svg",
+                        "src": "card-images/github-mark.svg",
                         "alt": "Github octocat logo"
                     },
                     "iconWhite": {
@@ -117,7 +117,7 @@
                     "type": "GitHub",
                     "url": "https://github.com/braedonrossum/braedon-rossum-bandsite",
                     "icon": {
-                        "src": "src/assets/github-mark.svg",
+                        "src": "card-images/github-mark.svg",
                         "alt": "Github octocat logo"
                     },
                     "iconWhite": {
@@ -141,7 +141,7 @@
                     "type": "GitHub",
                     "url": "https://github.com/braedonrossum/braedon-rossum-coffee-shop",
                     "icon": {
-                        "src": "src/assets/github-mark.svg",
+                        "src": "card-images/github-mark.svg",
                         "alt": "Github octocat logo"
                     },
                     "iconWhite": {
